@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Thông tin sản phẩm</legend>
+            <label for="product">Tên sản phẩm:</label>
+            <input type="text" name="product" id="product">
+            <label for="quantity">Số lượng:</label>
+            <input type="number" name="quantity" id="quantity">
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin giao hàng</legend>
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" name="fullname" id="fullname">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="phonenumber">Số điện thoại:</label>
+            <input type="tel" name="phonenumber" id="phonenumber">
+            <label for="address">Địa chỉ:</label>
+            <textarea name="address" id="address" cols="30" rows="3"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin thanh toán</legend>
+            <label for="type">Phương thức thanh toán:</label>
+            <select>
+                <option value="0">Thanh toán trước</option>
+                <option value="1">Thanh toán khi nhận hàng</option>
+            </select>
+        </fieldset>
+        <button type="submit">Đặt hàng</button>
+    </form>
+</body>
+</html>
